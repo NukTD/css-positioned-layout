@@ -1,5 +1,38 @@
 body {
   font-family: "Kanit";
+  background-color: black;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
-/* Start coding here */
+.card {
+  position: relative;
+}
+
+img {
+  border: solid 10px white;
+  position: relative;
+}
+
+.topic-1,
+.topic-2 {
+  position: absolute;
+  color: white;
+}
+
+.topic-1 {
+  left: 20px;
+  bottom: 20px;
+}
+.topic-2 {
+  background-color: hsla(0, 0%, 0%, 0.5);
+  padding: 5px 15px;
+  font-size: 20px;
+  right: 10px;
+  top: 50px;
+}
